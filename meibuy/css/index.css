@@ -1,0 +1,305 @@
+@Charset "utf-8";
+html {
+	 font:  12px '宋体';
+}
+a{
+	color: #000;
+}
+.top {
+	background-color: #f7f7f7;
+	height: 26px; 
+	border-bottom: 1px solid #D8D8D8;
+}
+.top_page {
+	width:  970px;
+	height: 26px;
+	margin: 0 auto;
+}
+.top_page_l{
+	line-height:  26px;
+}
+.top_page_r ul li {
+	line-height:  26px;
+	float: left ;
+	padding-right: 10px;
+}
+.top_page_r ul li s {
+	width: 17px;
+	height: 12px;
+	background: url(../image/jingling.png);
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo {
+	width: 970px ;
+	height: 98px ;
+	margin: 0 auto;
+}
+.logo_l {
+	width: 199px;
+	height: 55px;
+	margin: 24px 0 19px 9px;
+	background: url(../image/jingling.png) -17px 0;
+	text-indent: -1000em;
+}
+.logo_r {
+	width: 530px;
+	height: 42px;
+	border: 1px solid #c9c9c9;
+	margin-top: 29px;
+}
+.logo_r_content{
+	margin: 5px 5px 5px 4px;
+}
+.logo_r_search{
+	width: 418px;
+	height: 28px;
+	color: #999999;
+	border: 1px solid #c9c9c9;
+}
+.logo_r_btn{
+	width: 99px;
+	height: 30px;
+	color: white;
+	background-color: #2f70d0; 
+}
+.nav {
+	width: 970px ;
+	height: 25px ;
+	margin: 0 auto;
+	border-bottom: 2px solid #0266a3;
+}
+.nav li {
+	padding: 0 15px 0 15px;
+	font-size: 14px;
+	line-height: 26px;
+	float: left;
+	font-weight: bold;
+}
+.nav li a {
+	color: #0266a3;
+}
+.nav li:hover {
+	background-color: #0266a3;
+}
+.nav li:hover a {
+	color: white;
+}
+.banner {
+	width: 970px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.subnav {
+	width: 200px;
+	height: 210px;
+	margin-right: 11px;
+}
+.subnav h2 {
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #0266a3;
+	color: white;
+}
+.subnav ul {
+	background-color: #ebf0f6;
+}
+.subnav li {
+	font-size: 15px;
+	padding-top: 11px;
+	margin-left: 9px;
+}
+.subnav li a {
+	padding-left: 15px;
+}
+.subnav s {
+	display: inline-block;
+	width: 15px;
+	height: 14px;
+	background: url(../image/jingling.png) -216px 0;
+	vertical-align: middle;		
+}
+.ad {
+	width: 520px;
+	height: 210px;
+	background-color: yellow;
+}
+.massage {
+	width: 230px;
+	height: 210px;
+}
+.massage_top {
+	height: 95px;
+	border: 1px solid #dddddd;
+	background: #f7faff;
+	margin-bottom: 21px;
+}
+.massage_top s {
+	display: inline-block;
+	width: 36px;
+	height: 37px;
+	background: url(../image/jingling.png) -231px 0;
+	margin: 20px 10px 0 10px;
+}
+.massage_top .fw {
+	padding:  7px 0 0 18px;
+	font-weight: bold;
+}
+.massage_top .cheap {
+	margin-top: 25px;
+}
+.massage_bottom {
+	height: 92px;
+	background: #f7f7f7;
+}
+.massage_bottom .findmessage {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 11px;
+}
+.massage_bottom .phone {
+	text-align: center;
+}
+.massage_bottom .phone s {
+	display: inline-block;
+	width: 12px;
+	height: 16px;
+	background: url(../image/jingling.png) -216px -14px;
+	vertical-align: middle;
+}
+.massage_bottom .btn {
+	width: 74px;
+	height: 22px;
+	background: url(../image/jingling.png) -267px 0;
+	margin-top: 9px;
+	margin-left: 75px;
+}
+.material {
+	width: 950px;
+	height: 34px;
+	border-top: 2px solid #c3d7e4;
+	margin: 0 auto;
+	margin-top: 14px;
+	line-height: 34px;
+	background: #ecf1f7;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.product {
+	width: 970px;
+	height: 345px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+.product .product_l {
+	width: 738px;
+	height: 345px;
+	border: 1px solid #D8D8D8;
+}
+.product .product_l_top {
+	width: 712px; 
+	height: 155px;
+	padding: 17px 0 0 26px;
+}
+.product .product_l_top .p_l_t_product1 {
+	width: 350px;
+	height: 146px;
+}
+.product .buy {
+	width: 99px;
+	height: 143px;
+}
+.product .buy .image {
+	height: 100px;
+	border: 1px solid #cacaca;
+}
+.product .buy .image s {
+	display: inline-block;
+	width: 91px;
+	height: 63px;
+	background: url(../image/jingling.png) 0 -55px;
+	margin: 17px 0 0 3px;
+}
+.product .buy .btn {
+	width: 99px;
+	height: 26px;
+	background-color: #0a84e3;
+	margin-top: 15px;
+	color: white;
+}
+.product .explain {
+	width: 250px; 
+	height: 143px;
+}
+.product .explain .goodwife {
+	font-size: 14px;
+	padding: 10px 0 0 10px;
+}
+.product .explain .auto {
+	color: #863e01;
+	padding: 13px 0 0 15px;
+}
+.product .explain .money{
+	padding: 23px 0 0 11px;
+}
+.product .explain span {
+	color: red;
+}
+.product .explain s {
+	text-decoration: line-through;
+}
+.product .explain .buyed {
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+.product_l_line {
+	margin: 0 4px 0 4px;
+	border-top: 1px solid #cccccc;
+}
+.product .product_r {
+	width: 220px;
+	height: 345px;
+	border: 1px solid #e0e6f0;
+}
+.product .product_r h2 {
+	height: 28px;
+	line-height: 28px;
+	padding-left: 15px;
+	border-bottom: 1px solid #e0e6f0;
+}
+.product .product_r ul {
+	padding-top: 11px;
+}
+.product .product_r li {
+	line-height: 23px;
+	padding-left: 26px;
+}
+.link {
+	width: 970px;
+	height: 103px;
+	margin: 0 auto;
+	margin-top: 11px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 3px solid #0a7ec3;
+	color: #666666;
+}
+.link_p1 {
+	margin-top: 30px;
+}
+.link_p2 {
+	margin-top: 14px;
+	margin-left: 60px;
+}
+.aboutme {
+	height: 91px;
+	width: 970px;
+	margin: 0 auto;
+}
+.aboutme p {
+	margin-top: 14px;
+	text-align: center;
+}
